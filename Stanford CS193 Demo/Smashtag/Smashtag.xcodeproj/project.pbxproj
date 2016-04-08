@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A365FA6C1C81418D001D5DD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FA6B1C81418D001D5DD5 /* AppDelegate.swift */; };
+		A365FA6E1C81418D001D5DD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FA6D1C81418D001D5DD5 /* ViewController.swift */; };
+		A365FA711C81418D001D5DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365FA6F1C81418D001D5DD5 /* Main.storyboard */; };
+		A365FA731C81418D001D5DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A365FA721C81418D001D5DD5 /* Assets.xcassets */; };
+		A365FA761C81418D001D5DD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365FA741C81418D001D5DD5 /* LaunchScreen.storyboard */; };
+		A365FA811C81418D001D5DD5 /* SmashtagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FA801C81418D001D5DD5 /* SmashtagTests.swift */; };
+		A365FA8C1C81418D001D5DD5 /* SmashtagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FA8B1C81418D001D5DD5 /* SmashtagUITests.swift */; };
+		A365FA9B1C8142D0001D5DD5 /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FA9A1C8142D0001D5DD5 /* TweetTableViewController.swift */; };
+		A365FAAA1C814CA7001D5DD5 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FAA61C814CA7001D5DD5 /* MediaItem.swift */; };
+		A365FAAB1C814CA7001D5DD5 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FAA71C814CA7001D5DD5 /* Tweet.swift */; };
+		A365FAAC1C814CA7001D5DD5 /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FAA81C814CA7001D5DD5 /* TwitterRequest.swift */; };
+		A365FAAD1C814CA7001D5DD5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FAA91C814CA7001D5DD5 /* User.swift */; };
+		A365FAAF1C816E4A001D5DD5 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365FAAE1C816E4A001D5DD5 /* TweetTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A365FA7D1C81418D001D5DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A365FA601C81418C001D5DD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A365FA671C81418C001D5DD5;
+			remoteInfo = Smashtag;
+		};
+		A365FA881C81418D001D5DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A365FA601C81418C001D5DD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A365FA671C81418C001D5DD5;
+			remoteInfo = Smashtag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A365FA681C81418D001D5DD5 /* Smashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365FA6B1C81418D001D5DD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A365FA6D1C81418D001D5DD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A365FA701C81418D001D5DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A365FA721C81418D001D5DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A365FA751C81418D001D5DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A365FA771C81418D001D5DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A365FA7C1C81418D001D5DD5 /* SmashtagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365FA801C81418D001D5DD5 /* SmashtagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtagTests.swift; sourceTree = "<group>"; };
+		A365FA821C81418D001D5DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A365FA871C81418D001D5DD5 /* SmashtagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365FA8B1C81418D001D5DD5 /* SmashtagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtagUITests.swift; sourceTree = "<group>"; };
+		A365FA8D1C81418D001D5DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A365FA9A1C8142D0001D5DD5 /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
+		A365FAA61C814CA7001D5DD5 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		A365FAA71C814CA7001D5DD5 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		A365FAA81C814CA7001D5DD5 /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
+		A365FAA91C814CA7001D5DD5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A365FAAE1C816E4A001D5DD5 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A365FA651C81418C001D5DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365FA791C81418D001D5DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365FA841C81418D001D5DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A365FA5F1C81418C001D5DD5 = {
+			isa = PBXGroup;
+			children = (
+				A365FA6A1C81418D001D5DD5 /* Smashtag */,
+				A365FA7F1C81418D001D5DD5 /* SmashtagTests */,
+				A365FA8A1C81418D001D5DD5 /* SmashtagUITests */,
+				A365FA691C81418D001D5DD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A365FA691C81418D001D5DD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A365FA681C81418D001D5DD5 /* Smashtag.app */,
+				A365FA7C1C81418D001D5DD5 /* SmashtagTests.xctest */,
+				A365FA871C81418D001D5DD5 /* SmashtagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A365FA6A1C81418D001D5DD5 /* Smashtag */ = {
+			isa = PBXGroup;
+			children = (
+				A365FA6F1C81418D001D5DD5 /* Main.storyboard */,
+				A365FAAE1C816E4A001D5DD5 /* TweetTableViewCell.swift */,
+				A365FA9A1C8142D0001D5DD5 /* TweetTableViewController.swift */,
+				A365FAA51C814CA7001D5DD5 /* Twitter */,
+				A365FA991C8141AD001D5DD5 /* Supporting Files */,
+			);
+			path = Smashtag;
+			sourceTree = "<group>";
+		};
+		A365FA7F1C81418D001D5DD5 /* SmashtagTests */ = {
+			isa = PBXGroup;
+			children = (
+				A365FA801C81418D001D5DD5 /* SmashtagTests.swift */,
+				A365FA821C81418D001D5DD5 /* Info.plist */,
+			);
+			path = SmashtagTests;
+			sourceTree = "<group>";
+		};
+		A365FA8A1C81418D001D5DD5 /* SmashtagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A365FA8B1C81418D001D5DD5 /* SmashtagUITests.swift */,
+				A365FA8D1C81418D001D5DD5 /* Info.plist */,
+			);
+			path = SmashtagUITests;
+			sourceTree = "<group>";
+		};
+		A365FA991C8141AD001D5DD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A365FA6D1C81418D001D5DD5 /* ViewController.swift */,
+				A365FA6B1C81418D001D5DD5 /* AppDelegate.swift */,
+				A365FA721C81418D001D5DD5 /* Assets.xcassets */,
+				A365FA741C81418D001D5DD5 /* LaunchScreen.storyboard */,
+				A365FA771C81418D001D5DD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A365FAA51C814CA7001D5DD5 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				A365FAA61C814CA7001D5DD5 /* MediaItem.swift */,
+				A365FAA71C814CA7001D5DD5 /* Tweet.swift */,
+				A365FAA81C814CA7001D5DD5 /* TwitterRequest.swift */,
+				A365FAA91C814CA7001D5DD5 /* User.swift */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A365FA671C81418C001D5DD5 /* Smashtag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A365FA901C81418D001D5DD5 /* Build configuration list for PBXNativeTarget "Smashtag" */;
+			buildPhases = (
+				A365FA641C81418C001D5DD5 /* Sources */,
+				A365FA651C81418C001D5DD5 /* Frameworks */,
+				A365FA661C81418C001D5DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smashtag;
+			productName = Smashtag;
+			productReference = A365FA681C81418D001D5DD5 /* Smashtag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A365FA7B1C81418D001D5DD5 /* SmashtagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A365FA931C81418D001D5DD5 /* Build configuration list for PBXNativeTarget "SmashtagTests" */;
+			buildPhases = (
+				A365FA781C81418D001D5DD5 /* Sources */,
+				A365FA791C81418D001D5DD5 /* Frameworks */,
+				A365FA7A1C81418D001D5DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A365FA7E1C81418D001D5DD5 /* PBXTargetDependency */,
+			);
+			name = SmashtagTests;
+			productName = SmashtagTests;
+			productReference = A365FA7C1C81418D001D5DD5 /* SmashtagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A365FA861C81418D001D5DD5 /* SmashtagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A365FA961C81418D001D5DD5 /* Build configuration list for PBXNativeTarget "SmashtagUITests" */;
+			buildPhases = (
+				A365FA831C81418D001D5DD5 /* Sources */,
+				A365FA841C81418D001D5DD5 /* Frameworks */,
+				A365FA851C81418D001D5DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A365FA891C81418D001D5DD5 /* PBXTargetDependency */,
+			);
+			name = SmashtagUITests;
+			productName = SmashtagUITests;
+			productReference = A365FA871C81418D001D5DD5 /* SmashtagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A365FA601C81418C001D5DD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Luke;
+				TargetAttributes = {
+					A365FA671C81418C001D5DD5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 58EMLWJ3D8;
+					};
+					A365FA7B1C81418D001D5DD5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 58EMLWJ3D8;
+						TestTargetID = A365FA671C81418C001D5DD5;
+					};
+					A365FA861C81418D001D5DD5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 58EMLWJ3D8;
+						TestTargetID = A365FA671C81418C001D5DD5;
+					};
+				};
+			};
+			buildConfigurationList = A365FA631C81418C001D5DD5 /* Build configuration list for PBXProject "Smashtag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A365FA5F1C81418C001D5DD5;
+			productRefGroup = A365FA691C81418D001D5DD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A365FA671C81418C001D5DD5 /* Smashtag */,
+				A365FA7B1C81418D001D5DD5 /* SmashtagTests */,
+				A365FA861C81418D001D5DD5 /* SmashtagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A365FA661C81418C001D5DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365FA761C81418D001D5DD5 /* LaunchScreen.storyboard in Resources */,
+				A365FA731C81418D001D5DD5 /* Assets.xcassets in Resources */,
+				A365FA711C81418D001D5DD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365FA7A1C81418D001D5DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365FA851C81418D001D5DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A365FA641C81418C001D5DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365FA9B1C8142D0001D5DD5 /* TweetTableViewController.swift in Sources */,
+				A365FAAB1C814CA7001D5DD5 /* Tweet.swift in Sources */,
+				A365FAAA1C814CA7001D5DD5 /* MediaItem.swift in Sources */,
+				A365FA6E1C81418D001D5DD5 /* ViewController.swift in Sources */,
+				A365FA6C1C81418D001D5DD5 /* AppDelegate.swift in Sources */,
+				A365FAAC1C814CA7001D5DD5 /* TwitterRequest.swift in Sources */,
+				A365FAAD1C814CA7001D5DD5 /* User.swift in Sources */,
+				A365FAAF1C816E4A001D5DD5 /* TweetTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365FA781C81418D001D5DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365FA811C81418D001D5DD5 /* SmashtagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365FA831C81418D001D5DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365FA8C1C81418D001D5DD5 /* SmashtagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A365FA7E1C81418D001D5DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A365FA671C81418C001D5DD5 /* Smashtag */;
+			targetProxy = A365FA7D1C81418D001D5DD5 /* PBXContainerItemProxy */;
+		};
+		A365FA891C81418D001D5DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A365FA671C81418C001D5DD5 /* Smashtag */;
+			targetProxy = A365FA881C81418D001D5DD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A365FA6F1C81418D001D5DD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A365FA701C81418D001D5DD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A365FA741C81418D001D5DD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A365FA751C81418D001D5DD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A365FA8E1C81418D001D5DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A365FA8F1C81418D001D5DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A365FA911C81418D001D5DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smashtag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeDong.UESTC.Smashtag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A365FA921C81418D001D5DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smashtag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeDong.UESTC.Smashtag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A365FA941C81418D001D5DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashtagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeDong.UESTC.SmashtagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Debug;
+		};
+		A365FA951C81418D001D5DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashtagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeDong.UESTC.SmashtagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Release;
+		};
+		A365FA971C81418D001D5DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmashtagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeDong.UESTC.SmashtagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Smashtag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A365FA981C81418D001D5DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmashtagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeDong.UESTC.SmashtagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Smashtag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A365FA631C81418C001D5DD5 /* Build configuration list for PBXProject "Smashtag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A365FA8E1C81418D001D5DD5 /* Debug */,
+				A365FA8F1C81418D001D5DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A365FA901C81418D001D5DD5 /* Build configuration list for PBXNativeTarget "Smashtag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A365FA911C81418D001D5DD5 /* Debug */,
+				A365FA921C81418D001D5DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A365FA931C81418D001D5DD5 /* Build configuration list for PBXNativeTarget "SmashtagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A365FA941C81418D001D5DD5 /* Debug */,
+				A365FA951C81418D001D5DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A365FA961C81418D001D5DD5 /* Build configuration list for PBXNativeTarget "SmashtagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A365FA971C81418D001D5DD5 /* Debug */,
+				A365FA981C81418D001D5DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A365FA601C81418C001D5DD5 /* Project object */;
+}

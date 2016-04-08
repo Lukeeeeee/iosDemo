@@ -1,0 +1,12 @@
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/optimized/
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/bin/iPhoneSimulator/Debug/AnimatedConstraints.exe.mdb
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/bin/iPhoneSimulator/Debug/AnimatedConstraints.exe
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/AnimatedConstraints.exe
+/Users/abel/Projects/AnimatedConstraints/AnimatedConstraints/obj/iPhoneSimulator/Debug/AnimatedConstraints.exe.mdb

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AWB-aS-YV0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Happiness View Controller-->
+        <scene sceneID="pZp-Cq-8ZD">
+            <objects>
+                <viewController id="AWB-aS-YV0" customClass="HappinessViewController" customModule="Happiness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yTW-7x-7FS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Spf-N9-zS0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bNU-C6-uVp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Cfn-zU-FFw" customClass="FaceView" customModule="Happiness" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="2HW-07-jMD" appends="YES" id="zcC-9s-Nl9"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Cfn-zU-FFw" secondAttribute="trailing" id="7DH-g2-r70"/>
+                            <constraint firstItem="Cfn-zU-FFw" firstAttribute="top" secondItem="bNU-C6-uVp" secondAttribute="top" id="Jjh-D0-Sa3"/>
+                            <constraint firstItem="Cfn-zU-FFw" firstAttribute="bottom" secondItem="Spf-N9-zS0" secondAttribute="top" id="OnO-TF-6P4"/>
+                            <constraint firstItem="Cfn-zU-FFw" firstAttribute="leading" secondItem="bNU-C6-uVp" secondAttribute="leading" id="yWV-lk-1wU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="faceView" destination="Cfn-zU-FFw" id="9oO-N4-5Pi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ub0-fU-Fai" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="2HW-07-jMD">
+                    <connections>
+                        <action selector="changeHappiness:" destination="AWB-aS-YV0" id="ZIt-wY-QlF"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="35" y="-2"/>
+        </scene>
+    </scenes>
+</document>
